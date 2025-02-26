@@ -15,6 +15,8 @@
     "fp8": { "full_name": "FP8", "unit": "TFLOPS" },
     "fp8_tensor_core": { "full_name": "FP8 Tensor Core", "unit": "TFLOPS" },
     "fp8_tensor_core_sparsity": { "full_name": "FP8 Tensor Core with Sparsity", "unit": "TFLOPS" },
+    "fp4": { "full_name": "FP4", "unit": "TFLOPS" },
+    "fp4_tensor_core": { "full_name": "FP4 Tensor Core", "unit": "TFLOPS" },
     "int8": { "full_name": "INT8", "unit": "TOPS" },
     "int8_tensor_core": { "full_name": "INT8 Tensor Core", "unit": "TOPS" },
     "int8_tensor_core_sparsity": { "full_name": "INT8 Tensor Core with Sparsity", "unit": "TOPS" },
