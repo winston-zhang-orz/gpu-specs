@@ -50,6 +50,8 @@ BF16 Tensor Core with Sparsity (TFLOPS) | 1513 | 733 | 624
 FP8 (TFLOPS) | N/A | N/A | N/A
 FP8 Tensor Core (TFLOPS) | ? | 733 | N/A
 FP8 Tensor Core with Sparsity (TFLOPS) | 3026 | 1466 | N/A
+FP4 (TFLOPS) | ? | ? | ?
+FP4 Tensor Core (TFLOPS) | ? | ? | ?
 INT8 (TOPS) | ? | ? | ?
 INT8 Tensor Core (TOPS) | ? | 733 | 624
 INT8 Tensor Core with Sparsity (TOPS) | 3026 | 1466 | 1248
