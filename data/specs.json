@@ -614,5 +614,49 @@
          "https://www.techpowerup.com/gpu-specs/tesla-v100s-pcie-32-gb.c3584",
          "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"
       ]
-   }
+   },
+   "RTX4090": {
+        "name": "RTX4090",
+        "fp64": 2.3,
+        "fp64_tensor_core": null,
+        "fp32": 73.2,
+        "tf32_tensor_core": 292.8,
+        "tf32_tensor_core_sparsity": null,
+        "fp16": 292.8,
+        "fp16_tensor_core": 1171.2,
+        "fp16_tensor_core_sparsity": null,
+        "bf16": null,
+        "bf16_tensor_core": null,
+        "bf16_tensor_core_sparsity": null,
+        "fp8": null,
+        "fp8_tensor_core": null,
+        "fp4": null,
+        "fp4_tensor_core": null,
+        "fp8_tensor_core_sparsity": null,
+        "int8": 292.8,
+        "int8_tensor_core": 1171.2,
+        "int8_tensor_core_sparsity": null,
+        "int4": null,
+        "int4_tensor_core": null,
+        "int4_tensor_core_sparsity": null,
+        "manufacturer": "NVIDIA",
+        "architecture": "Ada Lovelace",
+        "technology": "TSMC 4N",
+        "nvidia_rt_cores": 128,
+        "nvidia_rt_cores_generation": 4,
+        "nvidia_tensor_cores": 512,
+        "nvidia_tensor_cores_generation": 4,
+        "nvidia_cuda_cores": 16384,
+        "gpu_memory": 24,
+        "memory_bandwidth": 1008,
+        "interconnect": "PCIe Gen4",
+        "encoders_decoders": "2 NVENC 8.0, 1 NVDEC",
+        "cuda_compute_capability": "8.9",
+        "power_consumption": 450,
+        "area": null,
+        "sources": [
+            "https://www.techpowerup.com/gpu-specs/rtx-4090.c3883",
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/"
+        ]
+    }
 }
