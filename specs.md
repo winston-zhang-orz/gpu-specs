@@ -37,6 +37,8 @@ Interconnect Type | PCIe Gen5 | PCIe Gen4 | PCIe Gen4 | PCIe Gen4 | PCIe Gen4 | 
 Encoders and Decoders | 0, 7 | 3, 3 | 2, 4 | 0, 5 | 0, 5 | 0, 5 | 0, 5 | 1, 2 | 1, 2 | 1, 2 | 3, 1 | 3, 1 | 3, 1
 CUDA Compute Capability | 9 | 8.9 | 8.9 | 8.0 | 8 | 8.0 | 8 | 8.6 | 7.5 | 7.5 | 7 | 7 | 7
 Power Consumption (W) | 350 | 300 | 72 | 250 | 300 | 400 | 400 | 150 | 70 | 230 | 250 | 300 | 250
+Area (mm2) | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ?
+Technology | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ?
 
 ## Data Conventions
 
