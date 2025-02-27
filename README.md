@@ -62,6 +62,7 @@ INT4 Tensor Core with Sparsity (TOPS) | ? | 1466 | ?
 GPU Name | H100 | L40S | A100 PCIe 80GB
 Manufacturer | NVIDIA | NVIDIA | NVIDIA
 Architecture | Hopper | Ada Lovelace | Ampere
+Technology | ? | ? | ?
 NVIDIA RT Cores | ? | 142 (3rd gen) | ?
 NVIDIA Tensor Cores | 456 (4th gen) | 568 (4th gen) | 432 (3rd gen)
 NVIDIA CUDA Cores | 14592 | 18176 | 6912
@@ -72,5 +73,4 @@ Encoders and Decoders | 0, 7 | 3, 3 | 0, 5
 CUDA Compute Capability | 9 | 8.9 | 8
 Power Consumption (W) | 350 | 300 | 300
 Area (mm2) | ? | ? | ?
-Technology | ? | ? | ?
 
