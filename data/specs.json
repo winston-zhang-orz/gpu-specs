@@ -25,7 +25,7 @@
     "int4_tensor_core_sparsity": { "full_name": "INT4 Tensor Core with Sparsity", "unit": "TOPS" },
     "manufacturer": { "full_name": "Manufacturer" },
     "architecture": { "full_name": "Architecture" },
-    "technology": { "full_name": "Technology" },
+    "process": { "full_name": "Manufacturing Process" },
     "nvidia_rt_cores": { "full_name": "NVIDIA RT Cores"},
     "nvidia_rt_cores_generation": { "full_name": "NVIDIA RT Cores Generation"},
     "nvidia_tensor_cores": { "full_name": "NVIDIA Tensor Cores" },
@@ -37,7 +37,7 @@
     "encoders_decoders": { "full_name": "Encoders and Decoders" },
     "cuda_compute_capability": { "full_name": "CUDA Compute Capability" },
     "power_consumption": { "full_name": "Power Consumption", "unit": "W" },
-    "area": { "full_name": "Area", "unit": "mm2" }
+    "die_size": { "full_name": "Die Size", "unit": "mm2" }
    },
    "h100": {
       "name": "H100",
@@ -77,7 +77,7 @@
       "encoders_decoders": "0, 7",
       "cuda_compute_capability": "9",
       "power_consumption": 350,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://getdeploying.com/reference/cloud-gpu/nvidia-h100",
          "https://www.techpowerup.com/gpu-specs/h100-pcie-80-gb.c3899",
@@ -122,7 +122,7 @@
       "encoders_decoders": "3, 3",
       "cuda_compute_capability": "8.9",
       "power_consumption": 300,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://resources.nvidia.com/en-us-l40s/l40s-datasheet-28413",
          "https://www.techpowerup.com/gpu-specs/l40s.c4173"
@@ -166,7 +166,7 @@
       "encoders_decoders": "2, 4",
       "cuda_compute_capability": "8.9",
       "power_consumption": 72,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://resources.nvidia.com/en-us-data-center-overview/l4-gpu-datasheet",
          "https://www.techpowerup.com/gpu-specs/l4.c4091"
@@ -210,7 +210,7 @@
       "encoders_decoders": "0, 5",
       "cuda_compute_capability": "8.0",
       "power_consumption": 250,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf"
       ]
@@ -253,7 +253,7 @@
       "encoders_decoders": "0, 5",
       "cuda_compute_capability": "8",
       "power_consumption": 300,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
          "https://www.techpowerup.com/gpu-specs/a100-pcie-80-gb.c3821",
@@ -298,7 +298,7 @@
       "encoders_decoders": "0, 5",
       "cuda_compute_capability": "8.0",
       "power_consumption": 400,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf"
       ]
@@ -341,7 +341,7 @@
       "encoders_decoders": "0, 5",
       "cuda_compute_capability": "8",
       "power_consumption": 400,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf",
          "https://www.techpowerup.com/gpu-specs/a100-pcie-80-gb.c3821",
@@ -386,7 +386,7 @@
       "encoders_decoders": "1, 2",
       "cuda_compute_capability": "8.6",
       "power_consumption": 150,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://resources.nvidia.com/en-us-gpu/a10-datasheet-nvidia",
          "https://www.techpowerup.com/gpu-specs/a10-pcie.c3793",
@@ -431,7 +431,7 @@
       "encoders_decoders": "1, 2",
       "cuda_compute_capability": "7.5",
       "power_consumption": 70,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://getdeploying.com/reference/cloud-gpu/nvidia-t4",
          "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new",
@@ -476,7 +476,7 @@
       "encoders_decoders": "1, 2",
       "cuda_compute_capability": "7.5",
       "power_consumption": 230,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/quadro-rtx-5000-data-sheet-us-nvidia-704120-r4-web.pdf",
          "https://www.techpowerup.com/gpu-specs/quadro-rtx-5000.c3308"
@@ -519,7 +519,7 @@
       "encoders_decoders": "3, 1",
       "cuda_compute_capability": "7",
       "power_consumption": 250,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf",
          "https://www.techpowerup.com/gpu-specs/tesla-v100-pcie-32-gb.c3184",
@@ -563,7 +563,7 @@
       "encoders_decoders": "3, 1",
       "cuda_compute_capability": "7",
       "power_consumption": 300,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf",
          "https://www.techpowerup.com/gpu-specs/tesla-v100-sxm2-16-gb.c3018",
@@ -608,7 +608,7 @@
       "encoders_decoders": "3, 1",
       "cuda_compute_capability": "7",
       "power_consumption": 250,
-      "area": null,
+      "die_size": null,
       "sources": [
          "https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf",
          "https://www.techpowerup.com/gpu-specs/tesla-v100s-pcie-32-gb.c3584",
@@ -653,7 +653,7 @@
         "encoders_decoders": "2 NVENC 8.0, 1 NVDEC",
         "cuda_compute_capability": "8.9",
         "power_consumption": 450,
-        "area": null,
+        "die_size": null,
         "sources": [
             "https://www.techpowerup.com/gpu-specs/rtx-4090.c3883",
             "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/"
