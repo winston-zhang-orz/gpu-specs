@@ -28,7 +28,7 @@ INT4 Tensor Core with Sparsity (TOPS) | ? | 1466 | ? | ? | ? | ? | ? | 1000 | ? 
 GPU Name | H100 | L40S | L4 | A100 PCIe 40GB | A100 PCIe 80GB | A100 SXM4 40GB | A100 SXM4 80GB | A10 | T4 | Quadro RTX 5000 | V100 PCIe | V100 SXM2 | V100S PCIe | RTX4090
 Manufacturer | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA | NVIDIA
 Architecture | Hopper | Ada Lovelace | Ada Lovelace | Ampere | Ampere | Ampere | Ampere | Ampere | Turing | Turing | Volta | Volta | Volta | Ada Lovelace
-Manufacturing Process | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ?
+Manufacturing Process | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | TSMC 4N
 NVIDIA RT Cores | ? | 142 (3rd gen) | 60 (3rd gen) | ? | ? | ? | ? | 72 (2nd gen) | ? | 48 | N/A | N/A | N/A | 128 (4th gen)
 NVIDIA Tensor Cores | 456 (4th gen) | 568 (4th gen) | 240 (4th gen) | 432 (3rd gen) | 432 (3rd gen) | 432 (3rd gen) | 432 (3rd gen) | 288 (3rd gen) | 320 (2nd gen) | 384 (2nd gen) | 640 (1st gen) | 640 (1st gen) | 640 (1st gen) | 512 (4th gen)
 NVIDIA CUDA Cores | 14592 | 18176 | 7424 | 6912 | 6912 | 6912 | 6912 | 9216 | 2560 | 3072 | 5120 | 5120 | 5120 | 16384
